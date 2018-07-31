@@ -1,0 +1,38 @@
+﻿Build started 25-Nov-16 3:15:11 PM.
+     1>Project "C:\Users\User\Desktop\39_99_Stick_Hero\Stick_hero\project_include.vcxproj" on node 2 (Build target(s)).
+     1>ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\CL.exe /c /IC:\Users\User\Desktop\39_99_Stick_Hero\Stick_hero\/include /ZI /nologo /W3 /WX- /sdl /Od /Oy- /D WIN32 /D _DEBUG /D _CONSOLE /D _LIB /D _UNICODE /D UNICODE /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug\\" /Fd"Debug\vc120.pdb" /Gd /TP /analyze- /errorReport:prompt HighScore.cpp main.cpp
+         main.cpp
+     1>c:\users\user\desktop\39_99_stick_hero\stick_hero\main.cpp(21): warning C4244: '=' : conversion from 'unsigned int' to 'float', possible loss of data
+     1>c:\users\user\desktop\39_99_stick_hero\stick_hero\main.cpp(30): warning C4244: '=' : conversion from 'unsigned int' to 'float', possible loss of data
+     1>c:\users\user\desktop\39_99_stick_hero\stick_hero\main.cpp(37): warning C4244: '=' : conversion from 'double' to 'float', possible loss of data
+     1>c:\users\user\desktop\39_99_stick_hero\stick_hero\main.cpp(117): warning C4244: 'argument' : conversion from 'int' to 'float', possible loss of data
+     1>c:\users\user\desktop\39_99_stick_hero\stick_hero\main.cpp(117): warning C4244: 'argument' : conversion from 'unsigned int' to 'float', possible loss of data
+     1>c:\users\user\desktop\39_99_stick_hero\stick_hero\main.cpp(297): warning C4244: '=' : conversion from 'unsigned int' to 'float', possible loss of data
+     1>c:\users\user\desktop\39_99_stick_hero\stick_hero\main.cpp(355): warning C4244: 'argument' : conversion from 'unsigned int' to 'float', possible loss of data
+     1>c:\users\user\desktop\39_99_stick_hero\stick_hero\main.cpp(400): warning C4244: '=' : conversion from 'double' to 'float', possible loss of data
+     1>c:\users\user\desktop\39_99_stick_hero\stick_hero\main.cpp(505): warning C4244: '=' : conversion from 'double' to 'float', possible loss of data
+     1>c:\users\user\desktop\39_99_stick_hero\stick_hero\main.cpp(513): warning C4305: '-=' : truncation from 'double' to 'float'
+     1>c:\users\user\desktop\39_99_stick_hero\stick_hero\main.cpp(514): warning C4305: '-=' : truncation from 'double' to 'float'
+     1>c:\users\user\desktop\39_99_stick_hero\stick_hero\main.cpp(780): warning C4244: '=' : conversion from 'double' to 'float', possible loss of data
+     1>c:\users\user\desktop\39_99_stick_hero\stick_hero\main.cpp(787): warning C4305: '-=' : truncation from 'double' to 'float'
+     1>c:\users\user\desktop\39_99_stick_hero\stick_hero\main.cpp(788): warning C4305: '-=' : truncation from 'double' to 'float'
+     1>c:\users\user\desktop\39_99_stick_hero\stick_hero\main.cpp(1053): warning C4244: '=' : conversion from 'double' to 'float', possible loss of data
+     1>c:\users\user\desktop\39_99_stick_hero\stick_hero\main.cpp(1060): warning C4305: '-=' : truncation from 'double' to 'float'
+     1>c:\users\user\desktop\39_99_stick_hero\stick_hero\main.cpp(1061): warning C4305: '-=' : truncation from 'double' to 'float'
+     1>c:\users\user\desktop\39_99_stick_hero\stick_hero\main.cpp(145): warning C4930: 'HighScore HighScore(void)': prototyped function not called (was a variable definition intended?)
+     1>c:\users\user\desktop\39_99_stick_hero\stick_hero\main.cpp(296): warning C4101: 'rand_dist' : unreferenced local variable
+     1>c:\users\user\desktop\39_99_stick_hero\stick_hero\main.cpp(1300): warning C4101: 'aa' : unreferenced local variable
+         HighScore.cpp
+     1>c:\users\user\desktop\39_99_stick_hero\stick_hero\highscore.cpp(85): warning C4551: function call missing argument list
+     1>c:\users\user\desktop\39_99_stick_hero\stick_hero\highscore.cpp(98): warning C4244: 'argument' : conversion from 'int' to 'float', possible loss of data
+         Generating Code...
+       Link:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"C:\Users\User\Desktop\39_99_Stick_Hero\Stick_hero\Debug\project_include.exe" /INCREMENTAL /NOLOGO /LIBPATH:C:\Users\User\Desktop\39_99_Stick_Hero\Stick_hero\/lib "sfml-network-d.lib" "sfml-audio-d.lib" "sfml-graphics-d.lib" "sfml-window-d.lib" "sfml-system-d.lib" kernel32.lib user32.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:\Users\User\Desktop\39_99_Stick_Hero\Stick_hero\Debug\project_include.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:\Users\User\Desktop\39_99_Stick_Hero\Stick_hero\Debug\project_include.lib" /MACHINE:X86 Debug\HighScore.obj
+         Debug\main.obj
+         project_include.vcxproj -> C:\Users\User\Desktop\39_99_Stick_Hero\Stick_hero\Debug\project_include.exe
+     1>Done Building Project "C:\Users\User\Desktop\39_99_Stick_Hero\Stick_hero\project_include.vcxproj" (Build target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:02.54
